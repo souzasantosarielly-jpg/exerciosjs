@@ -1,0 +1,42 @@
+//criar uma variável chamada 'nome' e mostrar:
+//"Meu nome é _________"
+let nome= 'ari';
+console.log('meu nome'+ nome);
+console.log( `meu nome é ${nome}`);
+
+//criar uma variável idade e mostra:
+//"eu tenho _________ anos de idade"
+let idade =15;
+console.log(`eu tenho ${idade} anos de idade`);
+//console.log('eu tenho' + idade +'anos de idade');
+
+//criar duas variáveis 'cidade' e 'estado' e exiba:
+//eu moro em ______-________.
+let cidade= 'maringá'
+let estado = 'Paraná'
+console.log(`eu moro em ${cidade} - ${estado}`);
+//criar duas variáveis e mostre:
+//a soma, a subtração, a multiplicação, a divisão, o dobro, o triplo, a metade e o quadrado
+
+let n1=10;
+let n2= 5;
+
+let soma = n1 + n2;
+console.log(`a soma de ${n1} e ${n2} é ${soma}`);
+let sub = n1-n2;
+console.log(`a subtração de ${n1} e ${n2} é ${sub}`);
+let mult = n1*n2;
+console.log(`a multiplicação de ${n1} e ${n2} é ${mult}`);
+let divisão= n1/n2;
+console.log(`a divisão de ${n1} e ${n2} é ${divisão}`);
+let dobro = n1* 2;
+console.log(`o dobro de ${n1} e ${n2} é ${dobro}`);
+let triplo = n2 *3;
+console.log(` o triplo de ${n1} e ${n2} é ${triplo}`);
+let metade =n1 /2;
+console.log(`a metade de ${n1} e ${n2} é ${metade}`);
+let quadrado =n1**2;
+console.log(`a o quadrado de ${n1} e ${n2} é ${quadrado}`);
+
+
+
